@@ -1,0 +1,35 @@
+.create-container {
+  display: flex;
+  width: 720px;
+  margin: 5px auto;
+  flex-direction: column;
+}
+.create-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+}
+.input-title {
+  height: 40px;
+  margin: 10px 0;
+  padding-left: 10px;
+  font-size: 20px;
+  border: none;
+}
+.post-input {
+  display: flex;
+  margin-top: 10px;
+  gap: 5px;
+  justify-content: baseline;
+}
+.input-cat {
+  height: 30px;
+}
+.cat-add {
+  width: 40px;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  padding: 5px 0px;
+  cursor: pointer;
+}
